@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 19, 2023, 9:46:11 AM
+    Author     : Gayan Wickz
+*/
+
+     
+.x{
+   
+       font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+  background-image: linear-gradient(#16581e,#8ac1d3);
+}
+
+        form {
+            
+           justify-content: center;
+         position: relative;
+           background-image: linear-gradient(#267731,#5cc0de);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            align-items: center;
+            border-radius: 20px;
+           
+        }
+
+       form label {
+            display: block;
+            margin: 10px 0 5px;
+            color: white;
+        }
+
+       form input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+       form input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+       form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+       form a {
+            display: block;
+            margin-top: 15px;
+            color: #007bff;
+            text-decoration: none;
+        }
+    

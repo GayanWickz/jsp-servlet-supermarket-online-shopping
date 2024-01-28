@@ -1,0 +1,14 @@
+com\mycompany\supermarket\Items.class
+com\mycompany\supermarket\resources\JakartaEE10Resource.class
+com\mycompany\supermarket\Email_Servlet$1.class
+com\mycompany\supermarket\Logout.class
+com\mycompany\supermarket\ImageUploadServlet.class
+com\mycompany\supermarket\Email_Servlet.class
+com\mycompany\supermarket\RegistrationServlet.class
+com\mycompany\supermarket\DeleteItemServlet.class
+com\mycompany\supermarket\LogoutServlet.class
+com\mycompany\supermarket\Login.class
+com\mycompany\supermarket\review.class
+com\mycompany\supermarket\UpdateItemServlet.class
+com\mycompany\supermarket\create_order.class
+com\mycompany\supermarket\JakartaRestConfiguration.class

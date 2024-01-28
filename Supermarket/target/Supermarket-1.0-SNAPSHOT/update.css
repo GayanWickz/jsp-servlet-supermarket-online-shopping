@@ -1,0 +1,70 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 4, 2023, 2:04:53 PM
+    Author     : Gayan Wickz
+*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+
+.edit, .delete {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #3498db;
+    color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.edit:hover, .delete:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.edit:active, .delete:active {
+    transform: translateY(2px);
+}
+
+.delete {
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+}
+
+.delete:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: url("Free Photo _ Various vegetables on a black table with space for a message.jpeg");
+    
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.full-boxer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment-box {
+  
+    width: 600px;
+    background: #00000014;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 15px rgb(255 255 255 / 30%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.comment-box:hover {
+    transform: scale(1.05);
+}
+
+.Profile {
+    display: flex;
+    align-items: center;
+}
+
+.Name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.Name strong {
+  color: #a99696;
+    font-size: 18px;
+  
+    font-family: ui-monospace;
+}
+
+.comment p {
+        color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+
+.divider {
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.xyz {
+  background-color: #9f0000;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: medium;
+    font-family: emoji;
+}
+
+.xyz:hover {
+    background-color: #b81913;
+    transform: scale(1.05);
+}
+.topic {
+    text-align: center;
+    background-color: #23662182; 
+    padding: 10px;
+    margin: 20px 0; 
+}
+
+.topic h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin: 0; 
+}
